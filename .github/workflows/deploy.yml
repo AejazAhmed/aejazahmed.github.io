@@ -28,6 +28,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4 # Action for deploying to gh-pages
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out # Directory where Next.js static export outputs (from next build && next export)
           publish_branch: gh-pages # The branch to publish to
