@@ -17,8 +17,7 @@ import Footer from '../components/Footer';
 // This is intentionally kept here as it's a global setting for the app's asset paths
 // For consistency, it's also exported from layout.jsx, but keeping it here for components
 // that might directly use it without prop drilling or context.
-export const isProduction = process.env.NODE_ENV === 'production';
-export const basePath = isProduction ? '/<your-repository-name>' : ''; // Replace with your repository name
+export const basePath = ''; // Replace with your repository name
 
 // --- Main App Component ---
 export default function App() {

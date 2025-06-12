@@ -5,8 +5,7 @@ import '../styles/globals.css';
 
 // Determine base path for GitHub Pages
 // This needs to be consistent across the application
-const isProduction = process.env.NODE_ENV === 'production';
-const basePath = isProduction ? '/<your-repository-name>' : ''; // Replace with your repository name
+const basePath = ''; // Replace with your repository name
 
 // Global styles are now part of the layout
 const GlobalStyles = () => (
